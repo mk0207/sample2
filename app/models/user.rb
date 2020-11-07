@@ -3,4 +3,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   
   has_many :messages
+
+  validates :name, presence: true
 end
