@@ -3,5 +3,4 @@ class Message < ApplicationRecord
 
   validates :text, presence: true
   validates :type, presence: true
-
 end
